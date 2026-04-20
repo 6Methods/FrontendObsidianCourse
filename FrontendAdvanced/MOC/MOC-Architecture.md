@@ -5,7 +5,7 @@
 
 # MOC — Architecture
 
-Карта знаний Track 3: как писать код, который переживёт 10+ разработчиков, 3 года и два пивота. Шесть модулей — FSD для смысла, monorepo для инструмента, micro-frontends для крайнего случая, legacy для реальности, testing для уверенности, accessibility как hygiene factor.
+Карта знаний Track 3: как писать код, который переживёт 10+ разработчиков, 3 года и два пивота. Восемь модулей — FSD для смысла, monorepo для инструмента, micro-frontends для крайнего случая, legacy для реальности, testing для уверенности, accessibility как hygiene factor, data fetching с RSC/Server Actions, design system для UI-масштаба.
 
 Используй эту карту как навигатор: ссылки из «Что почитать» соседних уроков часто ведут сюда.
 
@@ -68,6 +68,26 @@ A11y как hygiene factor 2026, а не nice-to-have. Семантика, focus
 - [[../A3-Архитектура-и-масштаб/A3.6-Accessibility/A3.6.1-Семантика-HTML-и-ARIA|A3.6.1 — Семантика HTML и ARIA]]
 - [[../A3-Архитектура-и-масштаб/A3.6-Accessibility/A3.6.2-Focus-management-и-keyboard|A3.6.2 — Focus management и keyboard]]
 - [[../A3-Архитектура-и-масштаб/A3.6-Accessibility/A3.6.3-Тестирование-a11y|A3.6.3 — Тестирование a11y]]
+
+## A3.7 — Data fetching, RSC и Server Actions
+
+Data-слой React 2026: где живут данные, как кэшируются, как инвалидируются, как мутируют. RSC, fetch-дедуп, `cache()`, revalidateTag, Server Actions, `use()` + Suspense streaming.
+
+- [[../A3-Архитектура-и-масштаб/A3.7-Data-fetching-RSC-Actions/A3.7.1-RSC-и-где-живут-данные|A3.7.1 — RSC и где живут данные]]
+- [[../A3-Архитектура-и-масштаб/A3.7-Data-fetching-RSC-Actions/A3.7.2-fetch-dedup-и-cache|A3.7.2 — fetch dedup и cache]]
+- [[../A3-Архитектура-и-масштаб/A3.7-Data-fetching-RSC-Actions/A3.7.3-revalidate-и-invalidation|A3.7.3 — revalidate и invalidation]]
+- [[../A3-Архитектура-и-масштаб/A3.7-Data-fetching-RSC-Actions/A3.7.4-Server-Actions-и-mutations|A3.7.4 — Server Actions и мутации]]
+- [[../A3-Архитектура-и-масштаб/A3.7-Data-fetching-RSC-Actions/A3.7.5-use-и-streaming-data|A3.7.5 — use() и streaming data]]
+
+## A3.8 — Design system
+
+Дизайн-система как архитектурная дисциплина, не Figma-кит. Токены, headless primitives (Radix/Aria), shadcn-подход, polymorphic и compound, theming через CSS vars, Storybook.
+
+- [[../A3-Архитектура-и-масштаб/A3.8-Design-system/A3.8.1-Design-tokens-и-CSS-vars|A3.8.1 — Design tokens и CSS vars]]
+- [[../A3-Архитектура-и-масштаб/A3.8-Design-system/A3.8.2-Radix-и-shadcn-подход|A3.8.2 — Radix и shadcn-подход]]
+- [[../A3-Архитектура-и-масштаб/A3.8-Design-system/A3.8.3-Polymorphic-и-compound-components|A3.8.3 — Polymorphic и compound components]]
+- [[../A3-Архитектура-и-масштаб/A3.8-Design-system/A3.8.4-Theming-и-dark-mode|A3.8.4 — Theming и dark mode]]
+- [[../A3-Архитектура-и-масштаб/A3.8-Design-system/A3.8.5-Storybook-и-документация|A3.8.5 — Storybook и документация]]
 
 ## Практика
 

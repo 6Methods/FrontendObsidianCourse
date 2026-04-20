@@ -5,7 +5,7 @@
 
 # MOC — Infra
 
-Карта знаний Track 4: как поднять свой стек без Vercel, написать CI, который не занимает полчаса, читать EXPLAIN и ставить OTel в прод. Шесть модулей — Docker, self-hosting, CI/CD глубже, SQL, observability, web security.
+Карта знаний Track 4: как поднять свой стек без Vercel, написать CI, который не занимает полчаса, читать EXPLAIN и ставить OTel в прод. Семь модулей — Docker, self-hosting, CI/CD глубже, SQL, observability, web security, i18n.
 
 ## A4.1 — Docker для фронтендера
 
@@ -65,6 +65,14 @@ PostgreSQL от синтаксиса до EXPLAIN. Когда ORM помогае
 - [[../A4-Инфра-DevOps-SQL/A4.6-Web-Security/A4.6.2-CSRF-CORS-SameSite-cookies|A4.6.2 — CSRF, CORS, SameSite cookies]]
 - [[../A4-Инфра-DevOps-SQL/A4.6-Web-Security/A4.6.3-OAuth-OIDC-JWT|A4.6.3 — OAuth, OIDC, JWT]]
 - [[../A4-Инфра-DevOps-SQL/A4.6-Web-Security/A4.6.4-Security-headers-и-audit|A4.6.4 — Security headers и audit]]
+
+## A4.7 — i18n
+
+Интернационализация как архитектурное решение, не «файл ru.json». Стратегии роутинга в App Router, ICU MessageFormat и plurals, RTL и `Intl` API.
+
+- [[../A4-Инфра-DevOps-SQL/A4.7-i18n/A4.7.1-i18n-стратегии-в-Next-js|A4.7.1 — i18n стратегии в Next.js]]
+- [[../A4-Инфра-DevOps-SQL/A4.7-i18n/A4.7.2-ICU-MessageFormat-и-plurals|A4.7.2 — ICU MessageFormat и plurals]]
+- [[../A4-Инфра-DevOps-SQL/A4.7-i18n/A4.7.3-RTL-и-Intl-API|A4.7.3 — RTL и Intl API]]
 
 ## Практика
 

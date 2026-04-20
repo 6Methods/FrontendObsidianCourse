@@ -5,7 +5,7 @@
 
 # MOC — Senior
 
-Карта знаний Track 6: soft-сторона senior-работы, которую не учат в университете и не пишут в changelog React'а. Четыре модуля — tech writing, code review, open source, команда и менторинг. Если Track 1–5 отвечают на «как построить», то Track 6 — на «как дожить до сдачи».
+Карта знаний Track 6: soft-сторона senior-работы, которую не учат в университете и не пишут в changelog React'а. Пять модулей — tech writing, code review, open source, команда и менторинг, AI-augmented development. Если Track 1–5 отвечают на «как построить», то Track 6 — на «как дожить до сдачи».
 
 ## A6.1 — Tech writing
 
@@ -46,6 +46,14 @@
 - [[../A6-Команда-и-культура/A6.4-Команда-и-менторинг/A6.4.3-Tech-lead-vs-staff|A6.4.3 — Tech lead vs staff engineer]]
 - [[../A6-Команда-и-культура/A6.4-Команда-и-менторинг/A6.4.4-Конфликты-и-эскалация|A6.4.4 — Конфликты и эскалация]]
 - [[../A6-Команда-и-культура/A6.4-Команда-и-менторинг/A6.4.5-Личный-рост-senior-plus|A6.4.5 — Личный рост senior+]]
+
+## A6.5 — AI-augmented development
+
+AI-инструменты 2026 как часть daily workflow. Ландшафт (Cursor, Claude Code, Copilot, agent mode), prompt engineering для кода, где AI системно ломается и где human-in-loop обязателен.
+
+- [[../A6-Команда-и-культура/A6.5-AI-augmented-development/A6.5.1-Cursor-Claude-Code-Copilot|A6.5.1 — Cursor, Claude Code, Copilot]]
+- [[../A6-Команда-и-культура/A6.5-AI-augmented-development/A6.5.2-Prompt-engineering-для-кода|A6.5.2 — Prompt engineering для кода]]
+- [[../A6-Команда-и-культура/A6.5-AI-augmented-development/A6.5.3-AI-в-ревью-и-где-ломается|A6.5.3 — AI в ревью и где ломается]]
 
 ## Практика
 
