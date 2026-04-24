@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Obsidian — локальное состояние vault'а (per-user, не для коммита)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/graph.json
+
+# Локальные дампы прежних версий курса
+FrontendAdvanced-dumps/
