@@ -544,7 +544,7 @@ roadmap: https://roadmap.sh/frontend
 тема: Инструменты
 статус: to-read
 roadmap: https://roadmap.sh/frontend
-связано: [[01.2-Как-учиться]], [[01.3-DevTools-минимум]]
+связано: "[[01.2-Как-учиться]], [[01.3-DevTools-минимум]]"
 ---
 ```
 
@@ -602,7 +602,7 @@ npm -v    # 10.x.x или свежее
 тема: Как учиться программированию
 статус: to-read
 roadmap: https://roadmap.sh/frontend
-связано: [[01.1-Инструменты]], [[01.3-DevTools-минимум]]
+связано: "[[01.1-Инструменты]], [[01.3-DevTools-минимум]]"
 ---
 ```
 
@@ -667,7 +667,7 @@ roadmap: https://roadmap.sh/frontend
 тема: DevTools минимум
 статус: to-read
 roadmap: https://roadmap.sh/frontend
-связано: [[01.1-Инструменты]]
+связано: "[[01.1-Инструменты]]"
 ---
 ```
 

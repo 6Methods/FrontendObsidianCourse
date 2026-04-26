@@ -100,7 +100,7 @@ roadmap: https://roadmap.sh/react
 тема: React Router
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.2-Context]]
+связано: "[[10.2-Context]]"
 ---
 ```
 
@@ -217,7 +217,7 @@ function App() {
 тема: Context
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.1-React-Router]], [[10.3-useReducer]]
+связано: "[[10.1-React-Router]], [[10.3-useReducer]]"
 ---
 ```
 
@@ -317,7 +317,7 @@ function App() {
 тема: useReducer
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.2-Context]], [[10.4-useMemo-useCallback-useRef]]
+связано: "[[10.2-Context]], [[10.4-useMemo-useCallback-useRef]]"
 ---
 ```
 
@@ -424,7 +424,7 @@ function TodoApp() {
 тема: useMemo, useCallback, useRef
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.3-useReducer]], [[10.5-Кастомные-хуки]]
+связано: "[[10.3-useReducer]], [[10.5-Кастомные-хуки]]"
 ---
 ```
 
@@ -527,7 +527,7 @@ function SearchInput() {
 тема: Кастомные хуки
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.4-useMemo-useCallback-useRef]], [[10.6-TanStack-Query]]
+связано: "[[10.4-useMemo-useCallback-useRef]], [[10.6-TanStack-Query]]"
 ---
 ```
 
@@ -642,7 +642,7 @@ function Profile({ userId }) {
 тема: TanStack Query
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.5-Кастомные-хуки]], [[10.7-Формы-RHF-и-zod]]
+связано: "[[10.5-Кастомные-хуки]], [[10.7-Формы-RHF-и-zod]]"
 ---
 ```
 
@@ -756,7 +756,7 @@ function UsersList() {
 тема: Формы — React Hook Form + zod
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[10.6-TanStack-Query]]
+связано: "[[10.6-TanStack-Query]]"
 ---
 ```
 

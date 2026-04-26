@@ -98,7 +98,7 @@ roadmap: https://roadmap.sh/frontend#internet
 тема: Как работает веб
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.2-HTTP-методы-статусы-заголовки]]
+связано: "[[07.2-HTTP-методы-статусы-заголовки]]"
 ---
 ```
 
@@ -173,7 +173,7 @@ console.log(data);
 тема: HTTP — методы, статусы, заголовки
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.1-Как-работает-веб]], [[07.3-REST-API-и-JSON]]
+связано: "[[07.1-Как-работает-веб]], [[07.3-REST-API-и-JSON]]"
 ---
 ```
 
@@ -270,7 +270,7 @@ else console.log(await r.json());
 тема: REST API и JSON
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.2-HTTP-методы-статусы-заголовки]], [[07.4-CORS-и-безопасность]]
+связано: "[[07.2-HTTP-методы-статусы-заголовки]], [[07.4-CORS-и-безопасность]]"
 ---
 ```
 
@@ -386,7 +386,7 @@ async function deleteUser(id) {
 тема: CORS и безопасность
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.3-REST-API-и-JSON]], [[07.5-Cookies-sessions-JWT]]
+связано: "[[07.3-REST-API-и-JSON]], [[07.5-Cookies-sessions-JWT]]"
 ---
 ```
 
@@ -460,7 +460,7 @@ target.textContent = userInput; // безопасно, текст
 тема: Cookies, sessions, JWT
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.4-CORS-и-безопасность]], [[07.6-Хранилища-в-браузере]]
+связано: "[[07.4-CORS-и-безопасность]], [[07.6-Хранилища-в-браузере]]"
 ---
 ```
 
@@ -569,7 +569,7 @@ async function refreshToken(refreshToken) {
 тема: Хранилища в браузере
 статус: to-read
 roadmap: https://roadmap.sh/frontend#internet
-связано: [[07.5-Cookies-sessions-JWT]]
+связано: "[[07.5-Cookies-sessions-JWT]]"
 ---
 ```
 

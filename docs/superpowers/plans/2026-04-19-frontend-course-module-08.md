@@ -98,7 +98,7 @@ roadmap: https://roadmap.sh/frontend#version-control-systems
 тема: Git — основы, коммиты, staging
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.2-Ветки-и-merge]]
+связано: "[[08.2-Ветки-и-merge]]"
 ---
 ```
 
@@ -182,7 +182,7 @@ git restore --staged README.md
 тема: Ветки, merge, rebase, конфликты
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.1-Git-основы]], [[08.3-GitHub-и-PR]]
+связано: "[[08.1-Git-основы]], [[08.3-GitHub-и-PR]]"
 ---
 ```
 
@@ -278,7 +278,7 @@ git stash pop
 тема: GitHub — remote, push/pull, PR
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.2-Ветки-и-merge]], [[08.4-DevTools-Elements-и-Console]]
+связано: "[[08.2-Ветки-и-merge]], [[08.4-DevTools-Elements-и-Console]]"
 ---
 ```
 
@@ -369,7 +369,7 @@ gh pr status
 тема: DevTools — Elements и Console
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.3-GitHub-и-PR]], [[08.5-DevTools-Network-и-Sources]]
+связано: "[[08.3-GitHub-и-PR]], [[08.5-DevTools-Network-и-Sources]]"
 ---
 ```
 
@@ -446,7 +446,7 @@ console.timeEnd('calc');              // "calc: 12.3ms"
 тема: DevTools — Network и Sources
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.4-DevTools-Elements-и-Console]], [[08.6-DevTools-Application-и-Performance]]
+связано: "[[08.4-DevTools-Elements-и-Console]], [[08.6-DevTools-Application-и-Performance]]"
 ---
 ```
 
@@ -523,7 +523,7 @@ await fetch("https://api.example.com/users/42", {
 тема: DevTools — Application, Performance, Lighthouse
 статус: to-read
 roadmap: https://roadmap.sh/frontend#version-control-systems
-связано: [[08.5-DevTools-Network-и-Sources]]
+связано: "[[08.5-DevTools-Network-и-Sources]]"
 ---
 ```
 

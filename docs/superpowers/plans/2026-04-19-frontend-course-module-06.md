@@ -94,7 +94,7 @@ roadmap: https://roadmap.sh/frontend#javascript
 тема: Замыкания и this
 статус: to-read
 roadmap: https://roadmap.sh/frontend#javascript
-связано: [[05.3-Функции]], [[06.2-Прототипы-и-классы]]
+связано: "[[05.3-Функции]], [[06.2-Прототипы-и-классы]]"
 ---
 ```
 
@@ -197,7 +197,7 @@ for (let i = 0; i < 3; i++) {
 тема: Прототипы и классы
 статус: to-read
 roadmap: https://roadmap.sh/frontend#javascript
-связано: [[06.1-Замыкания-и-this]], [[06.3-Промисы-и-async-await]]
+связано: "[[06.1-Замыкания-и-this]], [[06.3-Промисы-и-async-await]]"
 ---
 ```
 
@@ -302,7 +302,7 @@ setTimeout(b.handleClick, 10); // "Нажми" — ок
 тема: Промисы и async/await
 статус: to-read
 roadmap: https://roadmap.sh/frontend#javascript
-связано: [[06.2-Прототипы-и-классы]], [[06.4-Fetch-и-работа-с-API]]
+связано: "[[06.2-Прототипы-и-классы]], [[06.4-Fetch-и-работа-с-API]]"
 ---
 ```
 
@@ -398,7 +398,7 @@ async function loadSlow() {
 тема: Fetch и работа с API
 статус: to-read
 roadmap: https://roadmap.sh/frontend#javascript
-связано: [[06.3-Промисы-и-async-await]], [[06.5-Event-loop-и-обработка-ошибок]]
+связано: "[[06.3-Промисы-и-async-await]], [[06.5-Event-loop-и-обработка-ошибок]]"
 ---
 ```
 
@@ -506,7 +506,7 @@ ctrl.abort(); // прервать
 тема: Event loop и обработка ошибок
 статус: to-read
 roadmap: https://roadmap.sh/frontend#javascript
-связано: [[06.4-Fetch-и-работа-с-API]]
+связано: "[[06.4-Fetch-и-работа-с-API]]"
 ---
 ```
 

@@ -102,7 +102,7 @@ roadmap: https://roadmap.sh/react
 тема: JSX и компоненты
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.2-Props]]
+связано: "[[09.2-Props]]"
 ---
 ```
 
@@ -189,7 +189,7 @@ createRoot(document.getElementById("root")).render(<App />);
 тема: Props
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.1-JSX-и-компоненты]], [[09.3-State-и-useState]]
+связано: "[[09.1-JSX-и-компоненты]], [[09.3-State-и-useState]]"
 ---
 ```
 
@@ -285,7 +285,7 @@ function App() {
 тема: State и useState
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.2-Props]], [[09.4-События-и-формы]]
+связано: "[[09.2-Props]], [[09.4-События-и-формы]]"
 ---
 ```
 
@@ -395,7 +395,7 @@ function Todos() {
 тема: События и формы
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.3-State-и-useState]], [[09.5-Списки-и-условный-рендеринг]]
+связано: "[[09.3-State-и-useState]], [[09.5-Списки-и-условный-рендеринг]]"
 ---
 ```
 
@@ -519,7 +519,7 @@ function SignupForm() {
 тема: Списки и условный рендеринг
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.4-События-и-формы]], [[09.6-useEffect]]
+связано: "[[09.4-События-и-формы]], [[09.6-useEffect]]"
 ---
 ```
 
@@ -622,7 +622,7 @@ function App({ user, isLoading, error, todos }) {
 тема: useEffect
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.5-Списки-и-условный-рендеринг]], [[09.7-Lifting-state-и-композиция]]
+связано: "[[09.5-Списки-и-условный-рендеринг]], [[09.7-Lifting-state-и-композиция]]"
 ---
 ```
 
@@ -744,7 +744,7 @@ function useWindowSize() {
 тема: Lifting state up и композиция
 статус: to-read
 roadmap: https://roadmap.sh/react
-связано: [[09.6-useEffect]]
+связано: "[[09.6-useEffect]]"
 ---
 ```
 

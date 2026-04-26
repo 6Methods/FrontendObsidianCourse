@@ -98,7 +98,7 @@ HTML — это скелет любого сайта. Пока у нас нет 
 тема: Структура HTML-документа
 статус: to-read
 roadmap: https://roadmap.sh/frontend#html
-связано: [[02.2-Основные-теги-и-контент]]
+связано: "[[02.2-Основные-теги-и-контент]]"
 ---
 ```
 
@@ -161,7 +161,7 @@ roadmap: https://roadmap.sh/frontend#html
 тема: Основные теги и контент
 статус: to-read
 roadmap: https://roadmap.sh/frontend#html
-связано: [[02.1-Структура-HTML-документа]], [[02.3-Семантика-HTML5]]
+связано: "[[02.1-Структура-HTML-документа]], [[02.3-Семантика-HTML5]]"
 ---
 ```
 
@@ -226,7 +226,7 @@ roadmap: https://roadmap.sh/frontend#html
 тема: Семантика HTML5
 статус: to-read
 roadmap: https://roadmap.sh/frontend#html
-связано: [[02.2-Основные-теги-и-контент]], [[02.5-Базовая-доступность]]
+связано: "[[02.2-Основные-теги-и-контент]], [[02.5-Базовая-доступность]]"
 ---
 ```
 
@@ -311,7 +311,7 @@ roadmap: https://roadmap.sh/frontend#html
 тема: Формы
 статус: to-read
 roadmap: https://roadmap.sh/frontend#html
-связано: [[02.5-Базовая-доступность]]
+связано: "[[02.5-Базовая-доступность]]"
 ---
 ```
 
@@ -393,7 +393,7 @@ roadmap: https://roadmap.sh/frontend#html
 тема: Базовая доступность
 статус: to-read
 roadmap: https://roadmap.sh/frontend#accessibility
-связано: [[02.3-Семантика-HTML5]], [[02.4-Формы]]
+связано: "[[02.3-Семантика-HTML5]], [[02.4-Формы]]"
 ---
 ```
 

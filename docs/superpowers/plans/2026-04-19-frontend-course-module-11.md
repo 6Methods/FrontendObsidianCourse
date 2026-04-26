@@ -103,7 +103,7 @@ roadmap: https://roadmap.sh/typescript
 тема: Зачем TS и setup
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.2-Базовые-типы]]
+связано: "[[11.2-Базовые-типы]]"
 ---
 ```
 
@@ -190,7 +190,7 @@ export const config = { retries: 3, timeout: 1000 }; // TS сам выведет
 тема: Базовые типы
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.1-Зачем-TS-и-setup]], [[11.3-Aliases-interfaces-unions]]
+связано: "[[11.1-Зачем-TS-и-setup]], [[11.3-Aliases-interfaces-unions]]"
 ---
 ```
 
@@ -296,7 +296,7 @@ input.value = "test";
 тема: Type aliases, interfaces, unions, narrowing
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.2-Базовые-типы]], [[11.4-Generics]]
+связано: "[[11.2-Базовые-типы]], [[11.4-Generics]]"
 ---
 ```
 
@@ -418,7 +418,7 @@ function sound(pet: Cat | Dog) {
 тема: Generics
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.3-Aliases-interfaces-unions]], [[11.5-Utility-types]]
+связано: "[[11.3-Aliases-interfaces-unions]], [[11.5-Utility-types]]"
 ---
 ```
 
@@ -527,7 +527,7 @@ const data = await fetchJSON<User[]>("/api/users"); // User[]
 тема: Utility types
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.4-Generics]], [[11.6-TS-и-React]]
+связано: "[[11.4-Generics]], [[11.6-TS-и-React]]"
 ---
 ```
 
@@ -634,7 +634,7 @@ type EditForm = Partial<Omit<User, "id" | "password">>;
 тема: TS и React
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.5-Utility-types]], [[11.7-Zod-inference-и-API]]
+связано: "[[11.5-Utility-types]], [[11.7-Zod-inference-и-API]]"
 ---
 ```
 
@@ -777,7 +777,7 @@ function List<T>({
 тема: Zod inference и типизация API
 статус: to-read
 roadmap: https://roadmap.sh/typescript
-связано: [[11.6-TS-и-React]]
+связано: "[[11.6-TS-и-React]]"
 ---
 ```
 

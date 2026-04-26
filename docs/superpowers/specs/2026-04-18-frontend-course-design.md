@@ -81,7 +81,7 @@ FrontendCourse/
 тема: Flexbox
 статус: to-read | in-progress | done
 roadmap: https://roadmap.sh/frontend?node=flexbox
-связано: [[Grid]], [[адаптив]]
+связано: "[[Grid]], [[адаптив]]"
 ---
 
 # Flexbox

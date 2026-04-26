@@ -94,7 +94,7 @@ roadmap: https://roadmap.sh/frontend#css
 тема: CSS-переменные (custom properties)
 статус: to-read
 roadmap: https://roadmap.sh/frontend#css
-связано: [[04.4-Tailwind-CSS]]
+связано: "[[04.4-Tailwind-CSS]]"
 ---
 ```
 
@@ -178,7 +178,7 @@ body {
 тема: Transitions и анимации
 статус: to-read
 roadmap: https://roadmap.sh/frontend#css
-связано: [[04.1-CSS-переменные]]
+связано: "[[04.1-CSS-переменные]]"
 ---
 ```
 
@@ -284,7 +284,7 @@ roadmap: https://roadmap.sh/frontend#css
 тема: Препроцессоры и современный CSS
 статус: to-read
 roadmap: https://roadmap.sh/frontend#css
-связано: [[04.1-CSS-переменные]]
+связано: "[[04.1-CSS-переменные]]"
 ---
 ```
 
@@ -402,7 +402,7 @@ $space-md: 16px;
 тема: Tailwind CSS
 статус: to-read
 roadmap: https://roadmap.sh/frontend#css
-связано: [[04.1-CSS-переменные]], [[04.3-Препроцессоры-и-современный-CSS]]
+связано: "[[04.1-CSS-переменные]], [[04.3-Препроцессоры-и-современный-CSS]]"
 ---
 ```
 
