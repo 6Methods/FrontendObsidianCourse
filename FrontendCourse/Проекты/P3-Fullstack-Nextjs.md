@@ -6,7 +6,7 @@
 
 # P3 — Fullstack Next.js
 
-Финальный проект курса. Расширение M13 «Заметки» до продуктового уровня. Цель — не «сделать ещё фич», а **довести до состояния, которое не стыдно положить в резюме**: комментарии, теги, поиск, профили, Lighthouse ≥ 90, Sentry, security headers, preview-деплои на PR, README с архитектурой и скринами.
+Финальный проект курса. Расширение M13 «Заметки» до продуктового уровня. Цель — не «сделать ещё фич», а довести до состояния, которое не стыдно положить в резюме: комментарии, теги, поиск, профили, Lighthouse ≥ 90, Sentry, security headers, preview-деплои на PR, README с архитектурой и скринами.
 
 ## Задача
 
@@ -15,45 +15,45 @@
 ## Требования
 
 ### Новая функциональность
-1. **Комментарии** — под каждой публичной заметкой. Server Action создания, RLS на чтение (все) / запись (только залогиненные).
-2. **Теги** — many-to-many с заметками. Фильтр ленты по тегу: `/tag/[slug]`.
-3. **Поиск** — full-text по заметкам. Postgres `ts_vector` + `tsquery` или Supabase FTS. Input + URL `?q=...`.
-4. **Профили** — `/u/[username]`: публичные заметки юзера, аватарка (`next/image`), bio, счётчики.
-5. **Настройки** `/me/settings` — смена username, bio, загрузка аватарки в Supabase Storage.
+1. Комментарии под каждой публичной заметкой. Server Action создания, RLS на чтение (все) и запись (только залогиненные).
+2. Теги — many-to-many с заметками. Фильтр ленты по тегу: `/tag/[slug]`.
+3. Поиск — full-text по заметкам. Postgres `ts_vector` + `tsquery` или Supabase FTS. Input + URL `?q=...`.
+4. Профили `/u/[username]`: публичные заметки юзера, аватарка (`next/image`), bio, счётчики.
+5. Настройки `/me/settings` — смена username, bio, загрузка аватарки в Supabase Storage.
 
 ### Производительность
-- **next/image** везде: аватарки, картинки в заметках.
-- **next/font** для шрифта, `display: swap`.
-- **priority** на LCP-элементе главной.
-- **Lighthouse ≥ 90** на Performance, Accessibility, Best Practices, SEO — на главной и странице заметки.
-- **Core Web Vitals**: LCP ≤ 2.5s, INP ≤ 200ms, CLS ≤ 0.1.
-- **Vercel Speed Insights** подключён.
+- `next/image` везде: аватарки, картинки в заметках.
+- `next/font` для шрифта, `display: swap`.
+- `priority` на LCP-элементе главной.
+- Lighthouse ≥ 90 на Performance, Accessibility, Best Practices, SEO — на главной и странице заметки.
+- Core Web Vitals: LCP ≤ 2.5s, INP ≤ 200ms, CLS ≤ 0.1.
+- Vercel Speed Insights подключён.
 
 ### Мониторинг
-- **Sentry** — frontend + server. Source maps. Уведомления на email/Slack.
-- **Vercel Analytics** — базовая аналитика посетителей.
+- Sentry на frontend и server. Source maps. Уведомления на email или Slack.
+- Vercel Analytics — базовая аналитика посетителей.
 
 ### Безопасность
-- **CSP** headers в `next.config.js` или middleware.
-- **Rate limit** на Server Actions создания (Upstash Ratelimit, бесплатный tier).
-- **Vercel BotID** на форму логина и создания.
-- **RLS** проверена: ни одна приватная заметка/комментарий не видна чужому.
-- **OAuth redirect URLs** прописаны в Google Cloud Console для прод-домена.
+- CSP headers в `next.config.js` или middleware.
+- Rate limit на Server Actions создания (Upstash Ratelimit, бесплатный tier).
+- Vercel BotID на форму логина и создания.
+- RLS проверена: ни одна приватная заметка или комментарий не видна чужому.
+- OAuth redirect URLs прописаны в Google Cloud Console для прод-домена.
 - `npm audit` в CI, Dependabot включён.
 
 ### CI/CD
 - GitHub Actions: `lint → typecheck → unit → build → e2e` (Playwright headless).
-- **Lighthouse CI** — блокировать PR, если Performance < 85.
+- Lighthouse CI блокирует PR, если Performance < 85.
 - Vercel preview deployments на каждый PR.
 - Required status checks на main.
 
 ### SEO
 - `generateMetadata` на заметке, теге, профиле.
 - `sitemap.ts` и `robots.ts` в `app/`.
-- Open Graph картинки — `opengraph-image.tsx`.
+- Open Graph картинки через `opengraph-image.tsx`.
 
 ## Чего НЕ должно быть
-- Ручных API для CRUD (Server Actions).
+- Ручных API для CRUD (используем Server Actions).
 - Pages Router.
 - Секретов с префиксом `NEXT_PUBLIC_*`.
 - Пропущенного Lighthouse-прогона.
@@ -63,7 +63,7 @@
 
 1. Форкни M13 в новый репо `notes-app-pro` (или продолжи в том же, создав ветку).
 2. Добавь схему `comments` (Drizzle migration). RLS-политики.
-3. Server Action + форма комментария под `/notes/[id]`. Revalidate path.
+3. Server Action и форма комментария под `/notes/[id]`. Revalidate path.
 4. Схема `tags` + `notes_tags`. Страница `/tag/[slug]` — Server Component с лентой.
 5. Full-text поиск: `tsvector` колонка на `notes`, `GENERATED ALWAYS AS (to_tsvector('russian', title || ' ' || body)) STORED`. Страница `/search?q=...`.
 6. Профили: `/u/[username]`, запросы к `notes` по `userId`. Supabase Storage для аватарок.
@@ -72,9 +72,9 @@
 9. Подключить Sentry (`@sentry/nextjs`), тестовая ошибка отловлена.
 10. CSP в middleware, security headers в `next.config.js`.
 11. Upstash Ratelimit на Server Action создания заметки и комментария.
-12. Playwright: smoke e2e (логин → создать → опубликовать → увидеть в ленте → прокомментить → удалить).
+12. Playwright: smoke e2e (логин, создать, опубликовать, увидеть в ленте, прокомментить, удалить).
 13. Lighthouse CI в GitHub Actions.
-14. Prod-деплой на Vercel с кастомным доменом (или `.vercel.app`).
+14. Prod-деплой на Vercel с кастомным доменом или `.vercel.app`.
 15. README: архитектура (схема БД, структура роутов), стек, live URL, Lighthouse-скрины, env-vars.
 
 ## Сдача
@@ -93,7 +93,7 @@
 ## Критерии приёмки ревью
 - [ ] Комментарии работают через Server Action, видны только на публичных заметках.
 - [ ] Теги: заметка → 0..N тегов, страница тега показывает все публичные заметки с этим тегом.
-- [ ] Поиск работает по title + body (русский язык).
+- [ ] Поиск работает по title и body (русский язык).
 - [ ] Профиль `/u/[username]` показывает аватарку и публичные заметки.
 - [ ] Lighthouse Performance ≥ 90 на главной.
 - [ ] Speed Insights подключён, есть данные.

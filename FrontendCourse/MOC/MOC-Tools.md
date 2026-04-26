@@ -33,5 +33,5 @@
 - [[12.7-CI-на-GitHub-Actions]]
 
 ## Практика
-- [[M08-Git-workflow-и-debug]] — PR-workflow + отладка через DevTools.
-- [[M12-Тесты-и-CI]] — обкладываем SPA тестами и CI.
+- [[M08-Git-workflow-и-debug]]: PR-workflow и отладка через DevTools.
+- [[M12-Тесты-и-CI]]: обкладываем SPA тестами и CI.

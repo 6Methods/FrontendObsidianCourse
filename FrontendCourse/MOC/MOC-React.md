@@ -29,5 +29,5 @@
 - _App Router, Server Components, Server Actions, routing, layouts_
 
 ## Практика
-- [[M09-Todo-на-React]] — первая переработка vanilla-проекта на React.
-- [[M10-SPA-магазин]] — SPA с роутами, Context, TanStack Query, RHF+zod.
+- [[M09-Todo-на-React]]: первая переработка vanilla-проекта на React.
+- [[M10-SPA-магазин]]: SPA с роутами, Context, TanStack Query, RHF+zod.

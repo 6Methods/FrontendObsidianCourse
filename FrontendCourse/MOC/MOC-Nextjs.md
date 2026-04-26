@@ -34,5 +34,5 @@
 - [[14.9-Финал-резюме-и-дальше]]
 
 ## Практика
-- [[M13-Fullstack-заметки]] — fullstack на Next.js + Supabase + auth.js.
-- [[P3-Fullstack-Nextjs]] — расширенный продуктовый fullstack-проект (модуль 14).
+- [[M13-Fullstack-заметки]]: fullstack на Next.js, Supabase, auth.js.
+- [[P3-Fullstack-Nextjs]]: расширенный продуктовый fullstack-проект (модуль 14).
